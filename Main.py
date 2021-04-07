@@ -7,7 +7,8 @@ app = Flask(__name__)
 @app.route('/')
 def hello_world():
     return render_template("login.html")
-database={'Adithya':'123','Akatraga':'123'}
+database={'Adithya':'123','Akatraga':'1234'}
+
 
 @app.route('/form_login',methods=['POST','GET'])
 def login():
